@@ -9,7 +9,7 @@
   text-decoration: none;
   scroll-behavior: smooth;
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: #48555B;
 }
 
 section {
@@ -47,6 +47,18 @@ h3::after {
   height: 2px;
   bottom: 0;
   left: 47%;
+}
+
+.btn a {
+  color: white;
+  padding: 11px 29px;
+  background: #00A4E5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn a:hover {
+  background: #00658d;
 }
 
 .head_bg {
@@ -158,5 +170,209 @@ h3::after {
 .our_story .content .image_content img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.our_cap {
+  margin-top: 120px;
+}
+
+.our_cap .container .up_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our_cap .container .up_part h3 {
+  text-align: left;
+}
+
+.our_cap .container .up_part h3:after {
+  left: 0;
+  width: 40%;
+}
+
+.our_cap .container .up_part p {
+  width: 47%;
+}
+
+.our_cap .container .down_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our_cap .container .down_part .block {
+  border: 1px solid #E6E6E6;
+  width: 295px;
+  padding: 38px 23px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.our_cap .container .down_part .block img {
+  margin-bottom: 25px;
+}
+
+.our_cap .container .down_part .block h4 {
+  font-size: 16px;
+  margin-bottom: 13px;
+  color: #48555B;
+}
+
+.our_cap .container .down_part .block:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.want_to_build {
+  height: 100vh;
+  background: url("../images/bg.png") no-repeat center;
+  background-size: cover;
+  padding-top: 20%;
+}
+
+.want_to_build .main_content h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+.want_to_build .main_content .btn {
+  text-align: center;
+}
+
+.form_section {
+  background: #171819;
+  margin-top: -2px;
+  padding: 30px 0;
+}
+
+.form_section input {
+  width: 250px;
+  height: 40px;
+  font-size: 14px;
+  border: 2px solid #48555B;
+}
+
+.form_section button {
+  width: 150px;
+  height: 42px;
+  margin-left: -5px;
+  border: 2px solid #00A4E5;
+  background: #00A4E5;
+  color: white;
+  text-transform: uppercase;
+}
+
+.form_section button:hover {
+  background: #00658d;
+  border: #00658d;
+}
+
+.form_section .input_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form_section span {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer_section {
+  background: #141A20;
+  height: 240px;
+  padding: 40px 0;
+}
+
+.footer_section footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_section footer span {
+  font-size: 11px;
+  color: white;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer_section footer .company {
+  width: 250px;
+}
+
+.footer_section footer .company img {
+  margin-bottom: 16px;
+}
+
+.footer_section footer .company p {
+  color: white;
+  font-size: 11px;
+}
+
+.footer_section footer .links {
+  width: 260px;
+}
+
+.footer_section footer .links span {
+  margin-bottom: 10px;
+}
+
+.footer_section footer .links ul {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer_section footer .links ul li a {
+  color: white;
+  font-size: 11px;
+}
+
+.footer_section footer .links ul li a:hover {
+  color: #00A4E5;
+}
+
+.footer_section footer .contacts {
+  width: 140px;
+}
+
+.footer_section footer .contacts p {
+  font-size: 11px;
+  color: white;
+}
+
+.footer_section footer .contacts a {
+  font-size: 11px;
+  color: white;
+}
+
+.footer_section footer .contacts a:hover {
+  color: #00A4E5;
 }
 /*# sourceMappingURL=style.css.map */
